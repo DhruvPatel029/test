@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Feature API combined!"
+    return "Hello from feature branch API!"
